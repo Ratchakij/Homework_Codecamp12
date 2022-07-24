@@ -1,0 +1,236 @@
+/* Global */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+  margin: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.current {
+  color: #00bbb7;
+}
+
+h4 :hover{
+   color: #00bbb7;
+}
+
+
+/* Header */
+header {
+  position: sticky;
+  top: 0px;
+  padding: 5px;
+  background-color: white;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 0.7;
+}
+
+.branding {
+  width: 50%;
+  text-align: center;
+  align-items: center;
+}
+
+.branding h1 {
+  font-size: 24px;
+}
+
+.branding p {
+  font-size: 18px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 10vh;
+  gap: 30px;
+  margin: 0;
+  font-size: 15px;
+  align-items: center;
+}
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+/* Showcase */
+.showcase {
+  /* min-height: 80vh; */
+  background-image: url("https://cdn.pixabay.com/photo/2015/05/18/23/53/backpacker-772991_960_720.jpg");
+  height: 900px;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.showcase .container {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 400px;
+  line-height: 0.5;
+  /* color: white; */
+}
+
+.showcase h1 {
+  font-size: 100px;
+}
+
+.showcase p {
+  font-size: 24px;
+  width: 80%;
+}
+
+.showcase button {
+  height: 45px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 0 50px;
+  text-shadow: 1px 1px 1px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* About Me */
+.about {
+  display: flex;
+  width: 100%;
+  height: 77vh;
+}
+
+.aboutme {
+  padding: 100px 100px 0 500px;
+}
+
+.aboutme hr {
+  margin: 10px 0;
+}
+
+.aboutme h1 {
+  font-size: 40px;
+}
+
+.aboutme button {
+  height: 45px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 50px 0 0;
+  padding: 0 20px;
+}
+
+
+
+
+/* Service */
+.services {
+  background-image: url(https://static.wixstatic.com/media/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg/v1/fill/w_954,h_1074,al_c,q_85,enc_auto/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg);
+  background-size: cover;
+  display: block;
+  position: relative;
+  padding: 100px 0 0 350px;
+  font-size: 25px;
+}
+
+.services .container {
+  display: block;
+}
+
+.services .container p {
+  display: inline-block;
+  position: relative;
+  top: 200px;
+  left: 350px;
+}
+
+/* Boxes */
+.services .boxes {
+  display: flex;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 150px;
+  padding-bottom: 100px;
+
+}
+
+.services .boxes .box {
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  margin: 300px 200px 0 0;
+  padding: 50px 30px 50px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px;
+}
+
+.boxes button {
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0 20px;
+
+}
+
+/* Footer */
+footer {
+  display: flex;
+  background-color: #00bbb7;
+  min-height: 30vh;
+  padding: 50px 0 0 500px;
+}
+
+footer .contact {
+  display: block;
+}
+
+footer p {
+  line-height: 2;
+}
+
+/* Chat Box */
+div.fixed {
+  position: fixed;
+
+}
+
+div.fixed button {
+  position: fixed;
+  background-color: black;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+  width: 150px;
+  padding: 10px 10px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
