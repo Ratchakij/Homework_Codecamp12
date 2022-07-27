@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+.navbar,
+.box,
+img,
+ul,
+li {
+    background-color: white;
+}
+
+/* HEADER */
+header {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    border-bottom: 2px solid #D3D3D3;
+    gap: 100px;
+}
+
+img {
+    height: 3vh;
+}
+
+.box {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+select:hover,
+img:hover,
+li:hover,
+i:hover {
+    cursor: pointer;
+    color: #00CED1;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+    padding: 0 0;
+}
+
+li,
+i {
+    background-color: white;
+    font-weight: bolder;
+}
+
+/* CONTENT */
+
+content {
+    display: block;
+    width: 1465px;
+    height: 800px;
+    margin: 0 100px 0 275px;
+    padding-top: 50px;
+}
+
+.base-box {
+    display: flex;
+    border: 1px solid green;
+    width: 100%;
+    height: 660px;
+    margin: 50px 0 0 0;
+}
+
+.base-boxl,
+.base-boxr {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    border: 1px solid aqua;
+}
+
+.base-boxl {
+    display: block;
+}
+
+/* ---------------Base-boxl--------------- */
+/* CONTENT Base-docs */
+.base-docs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    height: 50%;
+    padding-right: 100px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #D3D3D3;
+}
+
+.base-docs1 {
+    width: 200px;
+    height: 200px;
+    line-height: 2;
+    padding-top: 25px;
+}
+
+.base-docs1,
+h2 {
+    background-color: white;
+}
+
+.base-docs i:first-child {
+    font-size: 30px;
+    color: #00CED1;
+    border: 3px solid #00CED1;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+.base-docs img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.base-docs .base-docs1 i {
+    font-size: 15px;
+    color: #00CED1;
+}
+
+select {
+    border: 2px solid #00CED1;
+    font-size: large;
+    background-color: white;
+}
+
+/* CONTENT Base-slides */
+.base-slides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    height: 50%;
+    padding-right: 100px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #D3D3D3;
+}
+
+.base-slides i:first-child {
+    font-size: 30px;
+    color: #00CED1;
+    border: 3px solid #00CED1;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+.base-slides img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.base-slides1 {
+    width: 200px;
+    height: 200px;
+    line-height: 2;
+    padding-top: 25px;
+    background-color: white;
+}
+
+.base-slides .base-slides1 i {
+    font-size: 15px;
+    color: #00CED1;
+}
+
+/* ---------------Base-boxr--------------- */
+/* base-order */
+
+.base-order {
+    display: block;
+    padding: 40px 40px;
+    line-height: 2.5;
+    color: gray;
+
+}
+
+.base-sub {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.base-apply {
+    display: flex;
+    justify-content: start;
+    /* margin: 40px 40px;1*/
+    gap: 30px;
+    /* background-color: aqua; */
+    padding: 20px 0px;
+    font-size: 40px;
+    color: #00CED1;
+    align-items: center;
+}
+
+.base-apply input {
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+}
+
+.base-order .base-pay {
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+.base-order h2 {
+    text-align: center;
+    background-color: #00CED1;
+    color: black;
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 0 0 5px 2px #00CED1;
+    margin-top: 10px;
+}
+
+.base-order input:hover,
+h2:hover {
+    cursor: pointer;
+}
